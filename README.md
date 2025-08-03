@@ -23,8 +23,8 @@ It takes two numbers and a mathematical operation from the user and prints the r
 ### 💻 Steps:
 1. Clone this repository or download the `.py` file:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+     git clone https://github.com/Gamakulo/Project.git
+   cd Project
     ```
 
 2. Run the Python program using:
@@ -41,4 +41,52 @@ It takes two numbers and a mathematical operation from the user and prints the r
 ---
 
 ## 🧾 Example
+2. **Run the calculator script:**
+   ```bash
+   python Calculator.py
+   ```
+
+3. **Follow the on-screen prompts:**
+   - Enter the first number.
+   - Enter the operation (`+`, `-`, `*`, or `/`).
+   - Enter the second number.
+
+## Example Usage
+
+```plaintext
+Enter the first number: 12
+Enter operation (+, -, *, /): *
+Enter the second number: 3
+12.0 * 3.0 = 36.0
+```
+
+If you try to divide by zero:
+
+```plaintext
+Enter the first number: 10
+Enter operation (+, -, *, /): /
+Enter the second number: 0
+Error: Division by zero is not allowed.
+```
+
+If you enter an invalid operation:
+
+```plaintext
+Enter the first number: 5
+Enter operation (+, -, *, /): ^
+Enter the second number: 2
+Invalid operation. Please choose +, -, * or /.
+```
+
+## Requirements
+
+- Python 3.x
+
+## File Path
+
+The calculator script is located at:
+
+```
+Project/Calculator.py
+```
 
